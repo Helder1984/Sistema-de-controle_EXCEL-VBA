@@ -1,76 +1,84 @@
-# Sistema de controle - EXCEL-VBA
+# Sistema de Controle - EXCEL-VBA
 
-Projeto Excel VBA com Classes
-  Este repositório contém um projeto modular desenvolvido em VBA para Excel, utilizando conceitos de Programação Orientada a Objetos (POO) através do uso de classes.
-  O objetivo deste projeto é construir ferramentas que auxiliem meu empreendimento, com desenvolvimento de forma organizada e estruturada, resultando em um código VBA eficiente, modular e reutilizável.
+## Projeto Excel VBA com Classes
 
-Objetivos do Projeto
-•	Construção de Ferramentas: Criar funcionalidades que auxiliem no meu empreendimento.
-•	Desenvolvimento Organizado: Implementar um código VBA de forma estruturada, eficiente e modular.
-•	Reutilização de Código: Facilitar a criação de novas funcionalidades de maneira dinâmica, utilizando códigos já validados, chamadas de funções das classes e passagem de parâmetros.
+Este repositório contém um projeto modular desenvolvido em VBA para Excel, utilizando conceitos de Programação Orientada a Objetos (POO) através do uso de classes. O objetivo deste projeto é construir ferramentas que auxiliem meu empreendimento, com desenvolvimento de forma organizada e estruturada, resultando em um código VBA eficiente, modular e reutilizável.
 
-Abordagem e Limitações
-  Um ponto importante é que a utilização da Programação Orientada a Objetos (OO) ficou limitada devido às restrições da linguagem VBA. 
-  A passagem de parâmetros é utilizada porque a linguagem limita o acesso a vetores, impossibilitando a manipulação dos vetores globais, usando herança ou criando objetos contendo vetores.
-  Portanto, a lógica aplicada é diferente da convencional. Em vez de construir uma classe de cadastro com todas as funções necessárias e criar objetos dessa classe conforme necessário, adotei uma abordagem alternativa.
+## Objetivos do Projeto
 
-Escolha do Excel
-  Alguns pontos sobre escolha do Excel:
-  •	Ferramenta Testada e Confiável: O Excel é amplamente testado e utilizado, sendo uma ferramenta de armazenamento de dados confiável e de fácil instalação.
-  •	Sem Necessidade de Banco de Dados: Não é necessário instalar um banco de dados separado ou utilizar uma solução online, basta ter o Excel instalado.
-  •	Resolução de Necessidades Específicas: Nenhum software disponível no mercado atende às necessidades específicas do meu ramo de atuação, e como programar não é minha atividade principal, essas ferramentas desenvolvidas precisam ser feitas de forma ágil e econômica, evitando investimentos elevados em tempo de codificação e com infraestrutura física ou online.
+- **Construção de Ferramentas**: Criar funcionalidades que auxiliem no meu empreendimento.
+- **Desenvolvimento Organizado**: Implementar um código VBA de forma estruturada, eficiente e modular.
+- **Reutilização de Código**: Facilitar a criação de novas funcionalidades de maneira dinâmica, utilizando códigos já validados, chamadas de funções das classes e passagem de parâmetros.
 
-Desenvolvimento Modular
-  O desenvolvimento modular e dinâmico é essencial, pois os módulos já desenvolvidos estão em uso. Com isso preciso garantir flexibilidade, facilidade de manutenção e expansão do sistema conforme necessário.
+## Abordagem e Limitações
 
-Funcionalidades
+Um ponto importante é que a utilização da Programação Orientada a Objetos (OO) ficou limitada devido às restrições da linguagem VBA. A passagem de parâmetros é utilizada porque a linguagem limita o acesso a vetores, impossibilitando a manipulação dos vetores globais, usando herança ou criando objetos contendo vetores. Portanto, a lógica aplicada é diferente da convencional. Em vez de construir uma classe de cadastro com todas as funções necessárias e criar objetos dessa classe conforme necessário, adotei uma abordagem alternativa.
+
+## Escolha do Excel
+
+Alguns pontos sobre a escolha do Excel:
+
+- **Ferramenta Testada e Confiável**: O Excel é amplamente testado e utilizado, sendo uma ferramenta de armazenamento de dados confiável e de fácil instalação.
+- **Sem Necessidade de Banco de Dados**: Não é necessário instalar um banco de dados separado ou utilizar uma solução online, basta ter o Excel instalado.
+- **Resolução de Necessidades Específicas**: Nenhum software disponível no mercado atende às necessidades específicas do meu ramo de atuação, e como programar não é minha atividade principal, essas ferramentas desenvolvidas precisam ser feitas de forma ágil e econômica, evitando investimentos elevados em tempo de codificação e com infraestrutura física ou online.
+
+## Desenvolvimento Modular
+
+O desenvolvimento modular e dinâmico é essencial, pois os módulos já desenvolvidos estão em uso. Com isso, preciso garantir flexibilidade, facilidade de manutenção e expansão do sistema conforme necessário.
+
+## Funcionalidades
+
 As principais funcionalidades:
-  •	Gerenciamento de Dados
-  •	Validação de Dados
-  •	Automação de Atividades 
-  •	Relatórios Automatizados
-  •	Interação com Usuário
-Sempre respeitando as peculiaridades da área de Gráfica Rápida
 
-Como Utilizar
+- Gerenciamento de Dados
+- Validação de Dados
+- Automação de Atividades
+- Relatórios Automatizados
+- Interação com Usuário
 
-Pré-requisitos
-Microsoft Excel instalado (versão 2013 ou superior)
+Sempre respeitando as peculiaridades da área de Gráfica Rápida.
 
-Passos para Configuração
-1.	Tenha o excel instalado
-2.	Abra o excel
-3.	Inicie um projeto novo
-4.	Habilite as macros
-Para habilitar as macros
-  •	Abra o Excel -> Arquivo -> Opções.
-  •	Central de Confiabilidade -> Configurações da Central de Confiabilidade.
-  •	Configurações de Macro -> Selecione a opção Habilitar todas as macros -> OK.
+## Como Utilizar
 
-5.	Ative a guia "Desenvolvedor" 
-Para ativar a guia "Desenvolvedor"
-  •	Arquivo -> Opções.
-  •	Personalize a Faixa de Opções:
-  •	Na janela Opções do Excel que se abre, clique em Personalizar Faixa de Opções no menu à esquerda.
-  •	No painel à direita, você verá uma lista de abas disponíveis. Encontre e marque a caixa de seleção Desenvolvedor.
-  •	Clique em OK para salvar as alterações e fechar a janela Opções do Excel.
-  •	A guia Desenvolvedor deve agora estar visível na faixa de opções do Excel ao lado da aba Exibir
+### Pré-requisitos
 
-6.	Configure as Referencias
-Para configurar as Referencias
-  •	Entre na guia Desenvolvedor
-  •	Clique em Visual Basic 
-  •	Na janela Visual Basic for Applications vá em
-  •	Ferramentas -> Referencias
-  •	Deixe como a imagem_habilitacao_referencias disponivel para download nos arquivos do projeto. As opções não marcadas estão abaixo das marcadas em ordem alfabética
+- Microsoft Excel instalado (versão 2013 ou superior)
 
+### Passos para Configuração
 
-8.	Baixe o arquivo .xlsm
-9.	Não será necessário nenhum outro arquivo para rodar a aplicação
-10.	Abra o arquivo
-11.	Estará pronto para usp
-12.	Para acessar a planilha por completo entre no modo de desenvolvimento
+1. Tenha o Excel instalado.
+2. Abra o Excel.
+3. Inicie um projeto novo.
+4. Habilite as macros.
 
-  Este projeto é uma demonstração prática de como o VBA pode ser utilizado para criar soluções específicas, mesmo com suas limitações.     Ele está em uma faze inicial, e neste momento o foco foi em seus alicerces.
-  
-  Sinta-se à vontade para explorar o código, sugerir melhorias e adaptar as ferramentas para suas próprias necessidades.
+### Para habilitar as macros:
+
+- Abra o Excel -> Arquivo -> Opções.
+- Central de Confiabilidade -> Configurações da Central de Confiabilidade.
+- Configurações de Macro -> Selecione a opção Habilitar todas as macros -> OK.
+
+### Para ativar a guia "Desenvolvedor":
+
+- Arquivo -> Opções.
+- Personalize a Faixa de Opções:
+  - Na janela Opções do Excel que se abre, clique em Personalizar Faixa de Opções no menu à esquerda.
+  - No painel à direita, você verá uma lista de abas disponíveis. Encontre e marque a caixa de seleção Desenvolvedor.
+  - Clique em OK para salvar as alterações e fechar a janela Opções do Excel.
+  - A guia Desenvolvedor deve agora estar visível na faixa de opções do Excel ao lado da aba Exibir.
+
+### Para configurar as Referências:
+
+- Entre na guia Desenvolvedor.
+- Clique em Visual Basic.
+- Na janela Visual Basic for Applications vá em Ferramentas -> Referências.
+- Deixe como a imagem_habilitacao_referencias disponível para download nos arquivos do projeto. As opções não marcadas estão abaixo das marcadas em ordem alfabética.
+
+8. Baixe o arquivo .xlsm.
+9. Não será necessário nenhum outro arquivo para rodar a aplicação.
+10. Abra o arquivo.
+11. Estará pronto para uso.
+12. Para acessar a planilha por completo entre no modo de desenvolvimento.
+
+Este projeto é uma demonstração prática de como o VBA pode ser utilizado para criar soluções específicas, mesmo com suas limitações. Ele está em uma fase inicial, e neste momento o foco foi em seus alicerces.
+
+Sinta-se à vontade para explorar o código, sugerir melhorias e adaptar as ferramentas para suas próprias necessidades.
